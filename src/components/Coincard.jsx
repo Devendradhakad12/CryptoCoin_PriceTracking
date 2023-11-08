@@ -3,7 +3,7 @@ import {  Heading,  Img, VStack,Text } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 
 const Coincard = ({name,image,id,price,symbol,currencySymbol})=> (
-    <Link to={`/coin/${id}`} target={'blank'}>
+    <Link to={`/coin/${id}`} target={'_blank'}>
     <VStack w={'50vh'} shadow={'lg'} p={'8'} borderRadius={'lg'} transition={'all 0.3s'} m={'4'} 
     css={{"&:hover":{transform:"Scale(1.1)"}}} >
       <Img src={image} w={'10'} h={'10'} objectFit={'contain'} alt={'img'} />
@@ -21,3 +21,4 @@ const Coincard = ({name,image,id,price,symbol,currencySymbol})=> (
     )
 
 export default Coincard
+ 

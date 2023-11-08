@@ -21,7 +21,7 @@ function Coins() {
     setLoading(true)
   }
   const btns = new Array(123).fill(1);
-
+ 
   //!fetch coins
 const fetchCoin = async ()=>{
 try {
@@ -59,7 +59,7 @@ fetchCoin();
     ))
   }
 </HStack>
-
+ 
  
 <HStack w={'full'} overflowX={'auto'} p={'8'} >
  {

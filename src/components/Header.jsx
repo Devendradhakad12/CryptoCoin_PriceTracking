@@ -8,9 +8,9 @@ function Header() {
 <Button variant={'unstyled'} color={'white'}>
   <Link to='/' >Home</Link>
 </Button>
-<Button variant={'unstyled'} color={'white'}>
+{/* <Button variant={'unstyled'} color={'white'}>
   <Link to='/exchanges' >Exchanges</Link>
-</Button>
+</Button> */}
 <Button variant={'unstyled'} color={'white'}>
   <Link to='/coins' >Coins</Link>
 </Button>

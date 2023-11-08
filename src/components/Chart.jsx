@@ -12,7 +12,7 @@ chartjs.register(
 )
  
 function Chart({arr,currency,days}) {
-
+ 
     const prices = [];
     const date = []
     
@@ -39,6 +39,7 @@ function Chart({arr,currency,days}) {
      }
 
     }
+  
    
   return (
     <Line options={{responsive:true}} data={data}  />
